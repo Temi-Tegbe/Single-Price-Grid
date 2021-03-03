@@ -1,0 +1,104 @@
+body {
+    background-image: url("https://images.unsplash.com/photo-1490370946242-34092dbf29f8?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=753&q=80");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 300px 250px;
+    grid-auto-rows: minmax(150px, auto);
+    justify-content: center;
+    align-content: center;
+    padding: 90px;
+}
+
+.first-grid {
+    display: grid;
+    grid-column: span 2;
+    background-color: white;
+    color: #2fd0c2;
+    box-shadow: 5px 5px 5px 0px #888888;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    align-items: end;
+    justify-items: start;
+    padding: 10px;
+    font-family: karla;
+    font-size: 18px;
+    font-weight: 570;
+    padding-left: 20px;
+}
+
+.second-grid {
+    display: grid;
+    grid-row: span 1;
+    grid-column: span 1;
+    box-shadow: 5px 5px 5px 0px #888888;
+    background-color: #36b1ac;
+    align-items: center;
+    justify-items: center;
+    color: #fbfefe;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    font-family: karla;
+    padding: 20px;
+}
+
+.third-grid {
+    grid-row: span 1;
+    grid-column: span 1;
+    box-shadow: 5px 5px 5px 0px #888888;
+    background-color: #5acdc8;
+    color: #fbfefe;
+    font-family: karla;
+    font-size: 15px;
+    font-weight: light;
+    padding: 20px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    align-items: center;
+    justify-items: center;
+}
+
+.second-text {
+    display: grid;
+    color: #58a761;
+    align-items: start;
+    justify-items: start;
+    padding: 10px;
+}
+
+.third-text {
+    display: grid;
+    color: #6e8884;
+    align-items: center;
+    justify-items: center;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    padding: 10px;
+}
+
+.white-text {
+    color: #cfcfcf;
+}
+
+.fourth-text {
+    display: grid;
+    color: #e9e9e8;
+    grid-column-gap: 10px;
+}
+
+.button-grid {
+    display: grid;
+    background-color: #c5e71f;
+    box-shadow: 2px 2px #888888;
+    padding: 10px;
+    grid-template-columns: 200px;
+    justify-items: center;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
